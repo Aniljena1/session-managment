@@ -1,0 +1,17 @@
+{% extends 'myapp/base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% block content %}
+    <h1>GFName registration form</h1>
+<form action="/results">
+    Enter Name:<input type="text" name="gfn" ><br><br>
+    <input type="submit"  class="btn btn-primary" value="Submit Gf Name">
+</form>
+{% endblock %}
+</body>
+</html>
